@@ -1,0 +1,32 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+.centeredOnPage {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 10em;
+}
+.viewMovieImg {
+     max-height: 30em;
+     width: 100%;
+     object-fit: cover;
+}
+#commentContainer > div {
+     margin: 0 20px;
+}
+.fullHeightAndWidth {
+     height: 80vh;
+}
+.buttonRegister {
+     min-width: 10em;
+}
+.zeroMargin {
+     margin-bottom: 0.2em;
+}
+.xs-font {
+     font-size: 0.8rem;
+}
